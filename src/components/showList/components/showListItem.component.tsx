@@ -1,3 +1,4 @@
+import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {View, Text} from 'react-native';
 
@@ -8,10 +9,10 @@ import {StarRating} from '../../starRating/starRating.component';
 import styles from './styles';
 
 export function ShowListItem(show: Show) {
-  // const navigation = useNavigation();
+  const navigation = useNavigation();
 
   function navigateToShowDetails() {
-    // navigation.navigate("ShowDetails", { show });
+    navigation.navigate('ShowDetails', {show});
   }
 
   return (

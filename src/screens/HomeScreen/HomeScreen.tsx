@@ -5,7 +5,7 @@ import styles from './styles';
 import {useQuery} from 'react-query';
 import {useDebounce} from '../../hooks/useDebounce';
 import {useInfiniteList} from '../../hooks/useInfiniteList';
-import {QueryKeys} from '../../service/queryKeys';
+import {QueryKeys} from '../../service/QueryKeys';
 import {showService} from '../../service/show/showService';
 
 export default function Home() {

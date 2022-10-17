@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     maxHeight: 150,
     borderRadius: 16,
-    backgroundColor: '#18183d',
+    backgroundColor: '#302b2b',
   },
   content: {
     flex: 1,
